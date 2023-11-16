@@ -1,0 +1,16 @@
+{
+    "id": 1,
+    "name": "Mickaël TOTO",
+    "avatarId": 1,
+    "_links": {
+        "self": {
+            "href": "http://localhost:8283/api/users/1"
+        },
+        "avatar": {
+            "href": "http://localhost:8283/api/avatars/1"
+        },
+        "contacts": {
+            "href": "http://localhost:8283/api/users/1/contacts"
+        }
+    }
+}

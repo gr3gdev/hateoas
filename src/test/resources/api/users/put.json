@@ -1,0 +1,16 @@
+{
+    "id": 2,
+    "name": "Bradley PASLONG",
+    "avatarId": 1,
+    "_links": {
+        "self": {
+            "href": "http://localhost:8283/api/users/2"
+        },
+        "avatar": {
+            "href": "http://localhost:8283/api/avatars/1"
+        },
+        "contacts": {
+            "href": "http://localhost:8283/api/users/2/contacts"
+        }
+    }
+}

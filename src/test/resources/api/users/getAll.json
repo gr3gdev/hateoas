@@ -1,0 +1,51 @@
+{
+    "_embedded": {
+        "userModelList": [
+            {
+                "id": 1,
+                "name": "Mickaël TOTO",
+                "avatarId": 1,
+                "_links": {
+                    "self": {
+                        "href": "http://localhost:8283/api/users/1"
+                    },
+                    "avatar": {
+                        "href": "http://localhost:8283/api/avatars/1"
+                    },
+                    "contacts": {
+                        "href": "http://localhost:8283/api/users/1/contacts"
+                    }
+                }
+            },
+            {
+                "id": 2,
+                "name": "Bradley PASLONG",
+                "avatarId": null,
+                "_links": {
+                    "self": {
+                        "href": "http://localhost:8283/api/users/2"
+                    },
+                    "contacts": {
+                        "href": "http://localhost:8283/api/users/2/contacts"
+                    }
+                }
+            },
+            {
+                "id": 3,
+                "name": "Miou WAF",
+                "avatarId": 2,
+                "_links": {
+                    "self": {
+                        "href": "http://localhost:8283/api/users/3"
+                    },
+                    "avatar": {
+                        "href": "http://localhost:8283/api/avatars/2"
+                    },
+                    "contacts": {
+                        "href": "http://localhost:8283/api/users/3/contacts"
+                    }
+                }
+            }
+        ]
+    }
+}

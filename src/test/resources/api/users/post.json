@@ -1,0 +1,13 @@
+{
+    "id": 4,
+    "name": "Nouvel utilisateur",
+    "avatarId": null,
+    "_links": {
+        "self": {
+            "href": "http://localhost:8283/api/users/4"
+        },
+        "contacts": {
+            "href": "http://localhost:8283/api/users/4/contacts"
+        }
+    }
+}
