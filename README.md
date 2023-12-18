@@ -1,6 +1,7 @@
 # HATEOS example
 
 ## Class Diagram
+
 ```mermaid
 classDiagram
     namespace Model {
