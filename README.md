@@ -4,29 +4,25 @@
 
 ```mermaid
 classDiagram
-    namespace Model {
-        class UserModel {
-            -Long id
-            -String name
-            -Long avatarId
-        }
-
-        class AvatarModel {
-            -Long id
-            -byte[] data
-        }
+    class UserModel {
+        -Long id
+        -String name
+        -Long avatarId
     }
 
-    namespace DAO {
-        class User {
-            -Long id
-            -String name
-        }
+    class AvatarModel {
+        -Long id
+        -byte[] data
+    }
 
-        class Avatar {
-            -Long id
-            -byte[] data
-        }
+    class User {
+        -Long id
+        -String name
+    }
+
+    class Avatar {
+        -Long id
+        -byte[] data
     }
 
     User -- Avatar
